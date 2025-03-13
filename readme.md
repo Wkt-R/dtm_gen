@@ -75,7 +75,7 @@ pip install -r requirements.txt
 ### Generate DataMatrix from User Input
 Run the script with the following command:
 ```bash
-python run.py --input 12345678912 --output-dir ./my_datamatrix
+python run.py --input 12345678912 --output-dir ./my_datamatrix --size 15
 ```
 
 #### Arguments:
