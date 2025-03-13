@@ -48,7 +48,7 @@ sudo apt-get install libdmtx0b dmtx-utils
 ## Installation
 ### Clone the Repository:
 ```bash
-git clone https://github.com/yourusername/dtm_gen.git
+git clone https://github.com/Wkt-R/dtm_gen.git
 cd dtm_gen
 ```
 
@@ -80,7 +80,7 @@ python run.py --input 12345678912 --output-dir ./my_datamatrix --size 15
 
 #### Arguments:
 - `--input`: Input string of **11 numbers** to encode (e.g., `12345678912`).
-- `--output-dir`: Directory to save the generated DataMatrix images (default: `./datamatrix_outputs`).
+- `--output-dir`: Directory to save the generated DataMatrix images (default: `./my_datamatrix`).
 - `--size`: Size of the DataMatrix image (default: `8`).
 
 #### Example Output:
@@ -97,13 +97,15 @@ Process completed. DataMatrix image generated in ./my_datamatrix
 ## Project Structure
 ```
 dtm_gen/
-├── __init__.py
-├── main.py          # Main script to run the program
-├── cli.py           # Command-line argument parsing
-├── db.py            # Database connection and query logic
-├── generator.py     # DataMatrix/QR code generation logic
-├── processor.py     # Input validation and processing
-└── run.py           # Entry point for the script
+├── run.py               # script to run the program
+├── setup.py             # setup
+└── dtm_gen/
+    ├── __init__.py
+    ├── main.py          # Main script to run the program
+    ├── cli.py           # Command-line argument parsing
+    ├── db.py            # Database connection and query logic
+    ├── generator.py     # DataMatrix/QR code generation logic
+    └── processor.py     # Input validation and processing
 ```
 
 ---

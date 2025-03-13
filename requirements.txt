@@ -1,0 +1,6 @@
+pillow==11.1.0
+psycopg2-binary==2.9.10
+pylibdmtx==0.1.10
+python-barcode==0.15.1
+qrcode==8.0
+setuptools==76.0.0
