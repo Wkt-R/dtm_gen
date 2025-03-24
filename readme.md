@@ -137,8 +137,8 @@ Contributions are welcome! Please **open an issue** or **submit a pull request**
 ---
 
 ## Author
-**Your Name**  
-[wiktor.kondraciuk@dhe.pl]  
+**Wiktor Kondraciuk**  
+[wkondraciuk99@gmail.com]  
 [GitHub Profile](https://github.com/Wkt-R)
 
 ---
